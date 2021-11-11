@@ -1,18 +1,17 @@
 public class Main {
     public static void main(String[] args) {
-        int initial_account = 500;
-        int replenishment_amount = 1500;
+        int initialAccount = 500;
+        int replenishmentAmount = 1500;
         boolean condition = true;
-        condition = replenishment_amount > 1000;
-        int amount_of_bonuses;
+        condition = replenishmentAmount > 1000;
+        int amountOfBonuses;
         if (condition) {
-            amount_of_bonuses = replenishment_amount / 100;
+            amountOfBonuses = replenishmentAmount / 100;
         } else {
-            amount_of_bonuses = 0;
+            amountOfBonuses = 0;
         }
-        int Total_score = initial_account + replenishment_amount;
-        System.out.println(Total_score);
-        System.out.println(amount_of_bonuses);
-
+        int totalScore = initialAccount + replenishmentAmount;
+        System.out.println(totalScore);
+        System.out.println(amountOfBonuses);
     }
 }
